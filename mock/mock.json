@@ -1,0 +1,42 @@
+{
+  "pages": {
+    "page 1": {
+      "scaffold": {
+        "appBar": {
+          "title": "Sample Page"
+        },
+        "body": {
+          "column": {
+            "children": [
+              {
+                "text": {
+                  "data": "Welcome to the Sample Page (h1)",
+                  "style": "h1"
+                }
+              },
+              {
+                "text": {
+                  "data": "This is a sample text widget (body small).",
+                  "style": "body small"
+                }
+              },
+              {
+                "button": {
+                  "text": "Click Me",
+                  "onPressed": {
+                    "action": {
+                      "type": "print",
+                      "data": {
+                        "message": "Button Clicked"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
